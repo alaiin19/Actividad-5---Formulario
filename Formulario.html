@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link title="CSS" rel="stylesheet" href="./css/Formulario.css" type="text/css"/>
+<script type="text/javascript" src="./js/validar.js"></script>
+</head>
+<body>
+<form name="formulario" id="formulario" action="" method="get">
+	<fieldset>
+	<legend>Registro</legend>
+		<p id="Obligatorio">Todos los campos acomapañados de * son obligatorios</p>
+		<label for="nombre"><label for="Obligatorio" id="Obligatorio">*</label>Nombre: </label>
+		<input type="text" name="nombre" id="nombre"></input>
+		<br/>
+		<label for="apellidos"><label for="Obligatorio" id="Obligatorio">*</label>Apellidos: </label>
+		<input type="text" name="apellidos" id="apellidos"></input>
+		<br/>
+		<label for="correo"><label for="Obligatorio" id="Obligatorio">*</label>Correo electronico: </label>
+		<input type="text" name="correo" id="correo"></input>
+		<br/>
+		<label for="contrasena"><label for="Obligatorio" id="Obligatorio">*</label>Contraseña: </label>
+		<input type="text" name="contrasena" id="contrasena"></input>
+		<br/>
+		<label for="confirmar"><label for="Obligatorio" id="Obligatorio">*</label>Confirmar contraseña: </label>
+		<input type="text" name="confirmar" id="confirmar"></input>
+		<br/>
+		<label for="sexo">Sexo: </label>
+		<input type="radio" name="sexo" id="sexo" value="Masculino">Masculino</input>
+		<input type="radio" name="sexo" id="sexo" value="Femenino">Femenino</input>
+		<br/>
+		<label for="fecha">Fecha de nacimiento: </label>
+		<input type="date" name="fecha" id="fecha"></input>
+		<br/>
+		<label for="direccion">Direccion: </label>
+		<input type="text" name="direccion" id="direccion"></input>
+		<br/>
+		<label for="Pais">Pais: </label>
+		<select name="Pais" id="Pais">
+			<option value="Espana" selected>España</option>
+			<option value="Francia">Francia</option>
+			<option value="Inglaterra">Inglaterra</option>
+			<option value="Alemania">Alemania</option>
+		</select>
+		<br/>
+		<label for="Suscripcion">Suscripcion a la revista digital: </label>
+		<input type="checkbox" name="Suscripcion" id="Suscripcion"></input>
+		<br/>
+		<label for="nombre"><label for="Obligatorio" id="Obligatorio">*</label>Acepta las Condiciones de uso, Aviso de privacidad y Condiciones de Cookies y publicidad en Internet: </label>
+		<input type="checkbox" name="Condiciones" id="Condiciones"></input>
+		<br/>
+		<br/>
+		<center>
+			<input type="button" name="enviar" id="enviar" value="Enviar" />
+			<input type="reset" name="borrar" id="borrar" value="Limpiar" />
+		</center>
+	</fieldset>
+</form>
+</body>
+</html>
